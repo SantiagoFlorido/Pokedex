@@ -1,12 +1,9 @@
-import './App.css'
+import { AppRouter } from './AppRouter';
 
 function App() {
-  
-  return (
-    <>
-      <h1>Pokedex</h1>
-    </>
-  )
+	return (
+		<AppRouter />
+	);
 }
 
-export default App
+export default App;
